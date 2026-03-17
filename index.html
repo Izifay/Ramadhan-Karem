@@ -355,7 +355,7 @@
         function checkPin() {
             const inputs = document.querySelectorAll('#slide1 input');
             const pin = [...inputs].map(i => i.value).join('');
-            if (pin === "2012") {
+            if (pin === "0000") {
                 animateSlides(1, 2);
                 document.getElementById('errorMsg').innerText = "";
             } else {
